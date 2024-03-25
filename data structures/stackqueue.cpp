@@ -32,7 +32,7 @@ public:
     void enqueue(T val) { 
         Node<T>* newNode = new Node<T>(val);
         if (front == NULL) {
-            front = rear = newNode; // //When a single element is added, front and rear will show the same node.
+            front = rear = newNode;  //When a single element is added, front and rear will show the same node.
         } else {
             rear->next = newNode;// next of the last node will point to the new node
             rear = newNode;// rear is updated
