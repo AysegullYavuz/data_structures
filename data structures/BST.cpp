@@ -2,7 +2,7 @@
 #include <stack>
 #include <queue>
 
-//Binary Search Tree - ýnOrder,preOrder,postOrder,levelOrder
+//Binary Search Tree - inOrder,preOrder,postOrder,levelOrder
 
 using namespace std;
 
