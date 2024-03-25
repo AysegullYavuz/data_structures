@@ -59,10 +59,10 @@ int main() {
     book.add("Zeynep", "4235768982");
     cout << "Ali's number: " << book.search("1234567890") << endl; //  calls Ali's number and prints it.
     book.remove("Ali"); // deletes Ali
-    book.update("Ayse", "1111111111"); // Updates Ayşegul's number
+    book.update("Aysegul", "1111111111"); // Updates Aysegul's number
     cout << "Number of people in book: " << book.person_count() << endl; //Prints the number of contacts in the phonebook
     cout << "People between Aysegul and Zeynep:\n";
-    book.list_between("Aysegul", "Zeynep"); // Lists the contacts between Ayşegul and Zeynep
+    book.list_between("Aysegul", "Zeynep"); // Lists the contacts between Aysegul and Zeynep
     return 0; 
 }
 
